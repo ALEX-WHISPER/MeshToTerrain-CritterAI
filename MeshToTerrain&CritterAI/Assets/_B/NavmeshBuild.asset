@@ -22,9 +22,9 @@ MonoBehaviour:
     mRoot:
       tileSize: 0
       borderSize: 0
-      xzCellSize: 0.25
-      yCellSize: 0.11
-      walkableSlope: 45
+      xzCellSize: 0.2
+      yCellSize: 0.1
+      walkableSlope: 45.5
       walkableHeight: 19
       walkableStep: 3
       walkableRadius: 2
@@ -33,17 +33,17 @@ MonoBehaviour:
       minRegionArea: 400
       mergeRegionArea: 75
       maxVertsPerPoly: 6
-      detailSampleDistance: 1.53
-      detailMaxDeviation: 2.2
+      detailSampleDistance: 6
+      detailMaxDeviation: 1
       contourOptions: 3
       useMonotone: 0
-    mWalkableRadius: 0.5
+    mWalkableRadius: 0.4
     mMaxEdgeLength: 0
     mMinRegionArea: 50
     mMergeRegionArea: 3
     mWalkableHeight: 1.9
-    mWalkableStep: 0.34
-    mBuildFlags: 416
+    mWalkableStep: 1
+    mBuildFlags: 480
     mResultOptions: 24
   mBoundsMin: {x: 0, y: 0, z: 0}
   mBoundsMax: {x: 0, y: 0, z: 0}
