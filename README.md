@@ -1,61 +1,61 @@
-ï»¿# Tips of using CritterAI & MeshToTerrain Plugin 
+# Tips of using CritterAI & MeshToTerrain Plugin 
 
-æ ‡ç­¾ï¼ˆç©ºæ ¼åˆ†éš”ï¼‰ï¼š Unity CritterAI MeshToTerrain
+±êÇ©£¨¿Õ¸ñ·Ö¸ô£©£º Unity CritterAI MeshToTerrain
 
 ---
 
-##Instructions
+## Instructions
 
 + CritterAI Plugin
-    + ä¸‹è½½
-    > CritterAI Pluginï¼š[unity3d_nav_critterai](https://github.com/kbengine/unity3d_nav_critterai)
-    + å¯¼å…¥
-    > å…¨é€‰ ("CritterAI" && "Plugin" æ–‡ä»¶å¤¹), æ‹·è´è‡³ Unity é¡¹ç›®å¯¹åº”çš„ "Assets" ä¸­
+    + ÏÂÔØ
+    > CritterAI Plugin£º[unity3d_nav_critterai](https://github.com/kbengine/unity3d_nav_critterai)
+    + µ¼Èë
+    > È«Ñ¡ ("CritterAI" && "Plugin" ÎÄ¼ş¼Ğ), ¿½±´ÖÁ Unity ÏîÄ¿¶ÔÓ¦µÄ "Assets" ÖĞ
     
-    + æ“ä½œæµç¨‹
-    > è‹¥æ’ä»¶å¯¼å…¥æ­£å¸¸ï¼ŒUnity å·¥å…·æ ä¸­å°†æ–°å¢ "CritterAI" é€‰é¡¹
+    + ²Ù×÷Á÷³Ì
+    > Èô²å¼şµ¼ÈëÕı³££¬Unity ¹¤¾ßÀ¸ÖĞ½«ĞÂÔö "CritterAI" Ñ¡Ïî
     
-    + **ç”ŸæˆåŸºæœ¬é…ç½®æ–‡ä»¶**ï¼šCritterAI -> Create NMGen Assets -> Navmesh Build : Standard 
+    + **Éú³É»ù±¾ÅäÖÃÎÄ¼ş**£ºCritterAI -> Create NMGen Assets -> Navmesh Build : Standard 
          > - CAIBakedNavmesh.asset
          > - MeshCompiler.asset
          > - NavmeshBuild.asset
         
     
-    + **ç”Ÿæˆ TerrainCompiler**: CritterAI -> Create NMGen Assets -> Compiler : Terrain
+    + **Éú³É TerrainCompiler**: CritterAI -> Create NMGen Assets -> Compiler : Terrain
             > TerrainCompiler.asset 
         
-    + **å°†åœ°å½¢ç»‘å®šè‡³ TerrainCompiler ä¸Š**ï¼š é€‰æ‹© Terrain å¯¹åº”çš„ TerrainDataï¼Œå°†å…¶æ‹–æ‹½è‡³ TerrainCompiler çš„ TerrainData ä¸Š
+    + **½«µØĞÎ°ó¶¨ÖÁ TerrainCompiler ÉÏ**£º Ñ¡Ôñ Terrain ¶ÔÓ¦µÄ TerrainData£¬½«ÆäÍÏ×§ÖÁ TerrainCompiler µÄ TerrainData ÉÏ
         
-    + **å°† TerrainComiler ä¸ NavmeshBuild ç›¸å…³è”**ï¼šå°† TerrainCompiler æ‹–æ‹½è‡³ NavmeshBuild -> Processors -> Add. (NOTE: åŒä¸€ NavmeshBuild ä¸­å¯æ·»åŠ å¤šä¸ªä¸åŒçš„ TerrainCompiler)
+    + **½« TerrainComiler Óë NavmeshBuild Ïà¹ØÁª**£º½« TerrainCompiler ÍÏ×§ÖÁ NavmeshBuild -> Processors -> Add. (NOTE: Í¬Ò» NavmeshBuild ÖĞ¿ÉÌí¼Ó¶à¸ö²»Í¬µÄ TerrainCompiler)
         
-    + **è°ƒå‚**ï¼šæ ¹æ®å®é™…åœ°å½¢ï¼Œåœ¨ NavmeshBuild -> Primary, NavmeshBuild -> Advanced ä¸‹è°ƒæ•´å‚æ•°æ•°å€¼
+    + **µ÷²Î**£º¸ù¾İÊµ¼ÊµØĞÎ£¬ÔÚ NavmeshBuild -> Primary, NavmeshBuild -> Advanced ÏÂµ÷Õû²ÎÊıÊıÖµ
         
-    + **çƒ˜åŸ¹**ï¼š
+    + **ºæÅà**£º
         > - NavmeshBuild -> Derive
         > - NavmeshBuild -> Build & Bake
     
-    + **å¯¼å‡º**ï¼š
+    + **µ¼³ö**£º
         > CAIBakedNavmesh -> Save
-        > ä¿å­˜åå°†ç”Ÿæˆä¸¤ä¸ªæ–‡ä»¶ï¼Œå…¶ä¸­â€œsrv_â€å¼€å¤´çš„æ–‡ä»¶ç”¨äºæœåŠ¡ç«¯å¯»è·¯ï¼Œå¦ä¸€ä¸ªåˆ™å¯ç”¨äºå®¢æˆ·ç«¯ä½¿ç”¨è¯¥æ’ä»¶æ¥å¯»è·¯
+        > ±£´æºó½«Éú³ÉÁ½¸öÎÄ¼ş£¬ÆäÖĞ¡°srv_¡±¿ªÍ·µÄÎÄ¼şÓÃÓÚ·şÎñ¶ËÑ°Â·£¬ÁíÒ»¸öÔò¿ÉÓÃÓÚ¿Í»§¶ËÊ¹ÓÃ¸Ã²å¼şÀ´Ñ°Â·
 
 + MeshToTerrain
-    + è´­ä¹°ï¼š
+    + ¹ºÂò£º
         + [Taobao](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.5157b556zhUSFM&id=521353941565&_u=41vgfmvn9697)
         + [Asset Store](https://www.assetstore.unity3d.com/cn/#!/content/7271)
-    + å…¶å®ƒï¼šç•¥
+    + ÆäËü£ºÂÔ
 
-##Issues##
-+ ä½¿ç”¨ MeshToTerrain æ—¶çš„è¾¹ç•Œé—®é¢˜ï¼š
-    > - é—®é¢˜æè¿°ï¼šå°†åœ°é¢ä¸å»ºç­‘ Mesh è½¬åŒ–ä¸ºåŒä¸€ Terrain æ—¶ï¼Œå°†å»ºç­‘æ¨¡å‹åœ¨å‚ç›´æ–¹å‘æ”¾å¤§åï¼Œè½¬åŒ–åçš„ Terrain å‡ºç°ä¸¤æ¡å¥‡æ€ªçš„è¾¹ç•Œ(æ— è®ºå¯¹ Bounds è¿›è¡Œ Auto Detect è¿˜æ˜¯ From GameObject è®¾ç½®å‡å‡ºç°)
-    > - è§£å†³æ–¹æ³•ï¼š
-        + å°†åœ°é¢ä¸å»ºç­‘åˆ†åˆ«è½¬åŒ–ä¸ºå•ç‹¬çš„ Terrain: Terrain_Ground, Terrain_Buildings
-        + æ–°å»ºä¸¤ä¸ª TerrainCompiler, åˆ†åˆ«ä¸ Terrain_Ground å’Œ Terrain_Buildings è¿›è¡Œç»‘å®š
-        + å°†ä¸¤ä¸ªç»‘å®š Terrain Data åçš„ TerrainCompiler æ·»åŠ è‡³ NavmeshBuild ä¸­
-        + åœ¨ NavmeshBuild ä¸­è¿›è¡Œçƒ˜ç„™ï¼Œå°†å¾—åˆ° Terrain_Ground å’Œ Terrain_Buildings ä¸¤ä»½åœ°å½¢å…±åŒä½œç”¨çš„ Navmesh
+## Issues
++ Ê¹ÓÃ MeshToTerrain Ê±µÄ±ß½çÎÊÌâ£º
+    > - ÎÊÌâÃèÊö£º½«µØÃæÓë½¨Öş Mesh ×ª»¯ÎªÍ¬Ò» Terrain Ê±£¬½«½¨ÖşÄ£ĞÍÔÚ´¹Ö±·½Ïò·Å´óºó£¬×ª»¯ºóµÄ Terrain ³öÏÖÁ½ÌõÆæ¹ÖµÄ±ß½ç(ÎŞÂÛ¶Ô Bounds ½øĞĞ Auto Detect »¹ÊÇ From GameObject ÉèÖÃ¾ù³öÏÖ)
+    > - ½â¾ö·½·¨£º
+        + ½«µØÃæÓë½¨Öş·Ö±ğ×ª»¯Îªµ¥¶ÀµÄ Terrain: Terrain_Ground, Terrain_Buildings
+        + ĞÂ½¨Á½¸ö TerrainCompiler, ·Ö±ğÓë Terrain_Ground ºÍ Terrain_Buildings ½øĞĞ°ó¶¨
+        + ½«Á½¸ö°ó¶¨ Terrain Data ºóµÄ TerrainCompiler Ìí¼ÓÖÁ NavmeshBuild ÖĞ
+        + ÔÚ NavmeshBuild ÖĞ½øĞĞºæ±º£¬½«µÃµ½ Terrain_Ground ºÍ Terrain_Buildings Á½·İµØĞÎ¹²Í¬×÷ÓÃµÄ Navmesh
 
-+ ä½¿ç”¨ CritterAI æ—¶çš„çƒ˜ç„™é—®é¢˜ï¼š
-    - çƒ˜ç„™åçš„è´´åˆç²¾ç¡®åº¦è¾ƒå·®ï¼šåœ¨æ¬²è¿›è¡Œçƒ˜ç„™çš„ Terrain å¯¹åº”çš„ TerrainCompiler ä¸­ï¼Œå°† "Resolution" å±æ€§å€¼å¢å¤§è‡³ 100
-    - è¾ƒé«˜å¤„çš„å¹³é¢éƒ¨åˆ†è¢«çƒ˜ç„™ä¸º Walkable åŒºåŸŸï¼šåœ¨ "NavmeshBuild" ä¸­ï¼Œå¢å¤§ "Min Island Area" çš„å€¼
++ Ê¹ÓÃ CritterAI Ê±µÄºæ±ºÎÊÌâ£º
+    - ºæ±ººóµÄÌùºÏ¾«È·¶È½Ï²î£ºÔÚÓû½øĞĞºæ±ºµÄ Terrain ¶ÔÓ¦µÄ TerrainCompiler ÖĞ£¬½« "Resolution" ÊôĞÔÖµÔö´óÖÁ 100
+    - ½Ï¸ß´¦µÄÆ½Ãæ²¿·Ö±»ºæ±ºÎª Walkable ÇøÓò£ºÔÚ "NavmeshBuild" ÖĞ£¬Ôö´ó "Min Island Area" µÄÖµ
 
     
 
